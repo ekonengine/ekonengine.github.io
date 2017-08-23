@@ -1930,6 +1930,33 @@
 		text-overflow: ellipsis;
 		overflow: hidden;
 	}
+	.bigbutton {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+		border: 0;
+		cursor: pointer;
+		display: inline-block;
+		font-weight: 400;
+		letter-spacing: 0.125em;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		white-space: nowrap;
+		font-size: 1.75rem;
+		max-width: fit-content;
+		height: 3.75em;
+		line-height: 3.75em;
+		border-radius: 3.75em;
+		padding: 0 2.5em;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
 
 		input[type="submit"].icon:before,
 		input[type="reset"].icon:before,
