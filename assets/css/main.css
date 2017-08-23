@@ -1930,6 +1930,10 @@
 		text-overflow: ellipsis;
 		overflow: hidden;
 	}
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
 	.bigbutton {
 		-moz-appearance: none;
 		-webkit-appearance: none;
